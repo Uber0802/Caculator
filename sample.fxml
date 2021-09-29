@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="myBackground" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="399.0" prefWidth="294.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Label fx:id="myLabel" layoutX="30.0" layoutY="29.0" prefHeight="52.0" prefWidth="236.0" style="-fx-background-color: white;" text="0" textAlignment="RIGHT">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Button fx:id="myButtonC" layoutX="31.0" layoutY="109.0" mnemonicParsing="false" onAction="#initialize" prefHeight="40.0" prefWidth="40.0" text="C" textAlignment="CENTER" textFill="#f40606" />
+      <Button fx:id="myButtonQuote" layoutX="96.0" layoutY="109.0" mnemonicParsing="false" onAction="#quote" prefHeight="40.0" prefWidth="40.0" text="( )" textAlignment="CENTER" textFill="#4f56dd" />
+      <Button fx:id="myButtonPer" layoutX="161.0" layoutY="109.0" mnemonicParsing="false" onAction="#percent" prefHeight="40.0" prefWidth="40.0" text="\%" textAlignment="CENTER" textFill="#4f56dd" />
+      <Button fx:id="myButtonDivision" layoutX="226.0" layoutY="109.0" mnemonicParsing="false" onAction="#division" prefHeight="40.0" prefWidth="40.0" text="/" textAlignment="CENTER" textFill="#4f56dd" />
+      <Button fx:id="myButton1" layoutX="31.0" layoutY="276.0" mnemonicParsing="false" onAction="#get_number" prefHeight="40.0" prefWidth="40.0" text="1" textAlignment="CENTER" />
+      <Button fx:id="myButton2" layoutX="96.0" layoutY="276.0" mnemonicParsing="false" onAction="#get_number" prefHeight="40.0" prefWidth="40.0" text="2" textAlignment="CENTER" />
+      <Button fx:id="myButton3" layoutX="161.0" layoutY="276.0" mnemonicParsing="false" onAction="#get_number" prefHeight="40.0" prefWidth="40.0" text="3" textAlignment="CENTER" />
+      <Button fx:id="myButtonPlus" layoutX="226.0" layoutY="275.0" mnemonicParsing="false" onAction="#plus" prefHeight="40.0" prefWidth="40.0" text="+" textAlignment="CENTER" textFill="#4f56dd" />
+      <Button fx:id="myButtonPosNeg" layoutX="31.0" layoutY="332.0" mnemonicParsing="false" onAction="#posneg" prefHeight="40.0" prefWidth="40.0" text="+/-" textAlignment="CENTER" />
+      <Button fx:id="myButton0" layoutX="96.0" layoutY="332.0" mnemonicParsing="false" onAction="#get_number" prefHeight="40.0" prefWidth="40.0" text="0" textAlignment="CENTER" />
+      <Button fx:id="myButtonDot" layoutX="161.0" layoutY="332.0" mnemonicParsing="false" onAction="#dot" prefHeight="40.0" prefWidth="40.0" text="." textAlignment="CENTER" />
+      <Button fx:id="myButtonEqual" layoutX="226.0" layoutY="331.0" mnemonicParsing="false" onAction="#equal" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #1d4b9b;" text="=" textAlignment="CENTER" />
+      <Button fx:id="myButton4" layoutX="31.0" layoutY="219.0" mnemonicParsing="false" onAction="#get_number" prefHeight="40.0" prefWidth="40.0" text="4" textAlignment="CENTER" />
+      <Button fx:id="myButton5" layoutX="96.0" layoutY="219.0" mnemonicParsing="false" onAction="#get_number" prefHeight="40.0" prefWidth="40.0" text="5" textAlignment="CENTER" />
+      <Button fx:id="myButton6" layoutX="162.0" layoutY="219.0" mnemonicParsing="false" onAction="#get_number" prefHeight="40.0" prefWidth="40.0" text="6" textAlignment="CENTER" />
+      <Button fx:id="myButtonMinus" layoutX="226.0" layoutY="219.0" mnemonicParsing="false" onAction="#minus" prefHeight="40.0" prefWidth="40.0" text="-" textAlignment="CENTER" textFill="#4f56dd" />
+      <Button fx:id="myButton7" layoutX="31.0" layoutY="164.0" mnemonicParsing="false" onAction="#get_number" prefHeight="40.0" prefWidth="40.0" text="7" textAlignment="CENTER" />
+      <Button fx:id="myButton8" layoutX="96.0" layoutY="164.0" mnemonicParsing="false" onAction="#get_number" prefHeight="40.0" prefWidth="40.0" text="8" textAlignment="CENTER" />
+      <Button fx:id="myButton9" layoutX="161.0" layoutY="164.0" mnemonicParsing="false" onAction="#get_number" prefHeight="40.0" prefWidth="40.0" text="9" textAlignment="CENTER" />
+      <Button fx:id="myButtonMultiply" layoutX="226.0" layoutY="164.0" mnemonicParsing="false" onAction="#multiply" prefHeight="40.0" prefWidth="40.0" text="x" textAlignment="CENTER" textFill="#4f56dd" />
+   </children>
+</AnchorPane>
